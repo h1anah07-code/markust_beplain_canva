@@ -1,0 +1,32 @@
+{
+  "updated": "2026-11-02",
+  "preference_precedence": "Current user instruction, then latest scope-matched confirmed feedback.",
+  "authorities": {
+    "copy": "click-through-copy.md",
+    "visual": "approved-quality.md",
+    "focused": "focused-benefit.md",
+    "revision": "native-revision.md"
+  },
+  "current": {
+    "appeals": "one distinct primary appeal per page",
+    "artworkLanguage": "English",
+    "aiRelatedArtworkWording": false,
+    "conceptCaption": "Illustrative comparison; not actual product-use results.",
+    "revisionPreservesVisualStyle": true
+  },
+  "brand_asset": {
+    "path": "../assets/beplain-logo.png",
+    "source": "Latest user-attached transparent beplain logo.png, reconfirmed 2026-10-10",
+    "sha256": "0c0f55028479f2223074b7c79c845d4c7db8f77fda5ab1eda6d4a4c2f2b37a5d",
+    "mode": "RGBA",
+    "size": [
+      1920,
+      1080
+    ],
+    "preserve_transparency": true,
+    "placement": "top-left on every page",
+    "white_badge": false
+  },
+  "historicalDecisions": "history/style_preferences-2026-10-26.json",
+  "referenceReview": "Show 1–2 real images; record visible yes/no; failed display is unconfirmed."
+}

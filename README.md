@@ -21,7 +21,13 @@ cp -R markust-bridge-page-thumbnail-canva ~/.agents/skills/
 
 Codex에서 새 대화를 열고 두 스킬이 표시되는지 확인하세요. 이미지 생성 기능과 Canva 연결은 각 사용자의 환경에서 사용할 수 있어야 합니다. 로컬 렌더링에는 Python 3.10+와 Pillow가 필요합니다. 응답 저장 JS 도우미는 Codex 도구 실행 환경에서 사용합니다.
 
-개인 기본 팀은 최초 실행 시 A/B/C 중 선택합니다. 개인 설정은 설치 폴더 밖에 저장되며 이 저장소에 포함하지 않습니다. 공유 팀 폴더 맵은 `markust-bridge-page-thumbnail-canva/references/team-folders.json`에 있습니다. 각자의 Canva 접근 권한을 확인해야 합니다.
+개인 기본 팀은 최초 실행 시 A/B/C 중 선택합니다. 개인 설정은 설치 폴더 밖에 저장되며 이 저장소에 포함하지 않습니다. 공개 배포본의 `markust-bridge-page-thumbnail-canva/references/team-folders.json`은 실제 팀 폴더 ID·링크를 비운 초기 설정입니다. 관리자에게 받은 팀 폴더 링크를 각 설치 환경에서 등록하고 Canva 접근 권한을 확인하세요. 기존 설치를 업데이트할 때는 설정된 이 파일을 먼저 별도 백업한 뒤 자신의 설정을 유지하세요.
+
+폴더 등록 예시(아래 값은 실제 팀 링크로 교체):
+
+```bash
+python3 ~/.agents/skills/markust-bridge-page-thumbnail-canva/scripts/team_routing.py register-folder --team B --folder-url "ADMIN_PROVIDED_CANVA_FOLDER_URL"
+```
 
 ## 사용 예시
 
@@ -41,7 +47,7 @@ $artifact-template-markust $markust-bridge-page-thumbnail-canva
 - 변경 없는 분석·이미지·크롭은 검수 상태와 파일 해시를 확인해 재사용합니다.
 - 원본 도구 응답은 작업 폴더에 보존하고, 모델에는 오류·부분 성공·변경 속성을 요약합니다.
 
-세부 실행 기준은 각 폴더의 `SKILL.md`를 확인하세요. `skill-manifest.sha256`은 배포에 포함된 두 스킬 원본 파일의 해시입니다. 사용자 영상·작업 결과·로그인 정보·개인 설정은 배포에 포함하지 않습니다.
+세부 실행 기준은 각 폴더의 `SKILL.md`를 확인하세요. `skill-manifest.sha256`은 배포에 포함된 두 스킬 파일의 해시입니다. 스킬 코드·지침·이미지는 설치본과 동일하며, 실제 팀 폴더 설정만 공개 배포용 초기값으로 바꿨습니다. 사용자 영상·작업 결과·로그인 정보·개인 설정은 배포에 포함하지 않습니다.
 
 ## 로컬 회귀 검사
 

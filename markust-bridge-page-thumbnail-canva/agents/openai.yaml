@@ -1,0 +1,4 @@
+interface:
+  display_name: "MARKUST 브릿지 페이지 썸네일 · Canva"
+  short_description: "제품 근거와 사진으로 영어 썸네일 4페이지를 Canva에 직접 제작·검수·저장"
+  default_prompt: "$markust-bridge-page-thumbnail-canva 스킬로 제품 정보와 첨부 자산을 확인하고, 편집 가능한 Canva 썸네일 4페이지를 제작·검수한 뒤 승인 후 저장해줘."

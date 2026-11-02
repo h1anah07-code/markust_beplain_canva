@@ -1,0 +1,249 @@
+{
+  "updated": "2026-10-26",
+  "approved": [
+    {
+      "id": "user-reference-07",
+      "source": "../assets/style-07.png",
+      "role": "user-provided style reference",
+      "keep": "Brand and soft headline above prominent Before-left and After-right photos; state labels inside each photo at bottom-right; multiple concise benefit bullets below. Confirm asset roles and provenance."
+    },
+    {
+      "id": "user-reference-08",
+      "source": "../assets/style-08.png",
+      "role": "user-provided style reference",
+      "keep": "Editorial text column beside one large face photo; enough product detail to feel complete; Before/After comparison is not required."
+    },
+    {
+      "id": "user-reference-09",
+      "source": "../assets/style-09.png",
+      "role": "user-provided style reference",
+      "keep": "Skin-concern-to-next-step bridge structure beside one large face photo. Product packshot is optional and used only if supplied.",
+      "copy_rule": "The approved reference is a structural/style guide, not fixed copy. Write a fresh main headline for each request; do not default to Fine lines. Redness. What next? or What's next?"
+    },
+    {
+      "id": "sample-01-with-revisions",
+      "source": "prior sample 01; not bundled because it contains request-specific photos",
+      "role": "previous code-built sample",
+      "keep": "Overall two-photo structure.",
+      "change": "Replace the blunt effect-only headline, add 3-4 benefit bullets, and move both labels inside the photos at bottom-right."
+    },
+    {
+      "id": "sample-03-with-revisions",
+      "source": "prior sample 03; not bundled because it contains request-specific photos",
+      "role": "previous code-built sample",
+      "keep": "Large After portrait on the right with one Before photo in the lower-left inset, both labeled by state. Confirm asset roles and provenance.",
+      "change": "Use a gentler beauty-editorial headline, keep supporting text short, and avoid conspicuous empty areas."
+    },
+    {
+      "id": "2026-10-09-canva-revision-feedback",
+      "source": "User feedback on this four-thumbnail Canva job",
+      "role": "production and revision preference",
+      "keep": "One Canva file containing all four thumbnails as separate editable pages; use the official beplain logo image, not text approximating the logo; preserve supplied original designs exactly before revision.",
+      "change": "In 02 editorial-detail and 03 question-led, remove conspicuous accidental voids through balanced scale and spacing. Supporting copy should offer a concrete verified benefit or ingredient and a clear CTA instead of generically repeating the skin concern.",
+      "copy_rule": "Use reference persuasion structure as a guide; never fix a headline or paragraph as a recurring default. Preserve exact wording when explicitly approved or outside the scope of a targeted revision.",
+      "revision_order": "Future revisions default to original 1, revised 1, original 2, revised 2, and so on, in one Canva file. Explicit user ordering overrides this default."
+    },
+    {
+      "id": "2026-10-09-latest-logo-and-adaptive-typography",
+      "source": "User follow-up after approving the saved Canva revisions",
+      "role": "future production preference",
+      "keep": "The improved whitespace balance is approved.",
+      "change": "Use the newest supplied transparent beplain logo file. For sparse content, appropriately larger type is welcome; choose type size and spacing from the amount of copy and composition on each page.",
+      "scope": "Future work; this feedback does not request another edit to the saved Canva file."
+    },
+    {
+      "id": "2026-10-10-logo-naming-and-portrait-feedback",
+      "source": "Latest user request to update both production skills",
+      "role": "future Canva production preference",
+      "logo": "Use the latest attached transparent beplain logo at top-left on every page, preserving alpha with no white logo box/badge. Choose a light composition behind it.",
+      "naming": "Name the actual Canva file MM.DD for the Friday of the request date's Monday–Sunday week in the user timezone; 2026-10-10 → 10.09.",
+      "portrait": "Select front-facing through at most 45° views for all thumbnail portraits, especially the fourth poster; exclude profiles beyond 45°."
+    },
+    {
+      "id": "2026-10-10-before-after-structure-feedback",
+      "source": "User explicitly requested skill update and Canva revision",
+      "role": "structure 01 and 04 composition preference",
+      "structure_01": "Before on the left and After on the right; labels Before/After instead of Front view/Three-quarter view.",
+      "structure_04": "One Before photo in the lower-left inset; After photo in the large right area; state labels inside the photos.",
+      "pose": "Each photo independently uses 0° front-facing through at most 45°. Before and After may face different directions or use different angles within that range."
+    },
+    {
+      "id": "2026-10-22-editorial-content-density",
+      "source": "../assets/style-10.png",
+      "role": "User-supplied image 3; preferred density over supplied image 1",
+      "keep": "Large right portrait and editorial left column, with three short points below the supporting lead and useful explanatory copy before product name and CTA.",
+      "change": "Give conspicuous middle-column gaps a useful explanation role; establish enough verified support before adjusting type scale or spacing.",
+      "scope": "Content quantity, grouping and whitespace preference. The screenshot is not reusable production photography, fixed copy or claim evidence."
+    },
+    {
+      "id": "2026-10-22-photo-first-content-density",
+      "source": "../assets/style-11.png",
+      "role": "User-supplied image 4; preferred density over supplied image 2",
+      "keep": "Full-width headline/subhead, dominant right After photo, and left Before inset with product name/short benefit above it and a compact ingredient-to-benefit explanation below it.",
+      "change": "Photo-first layouts still need product identity and concrete explanatory support; avoid an empty left rail around an isolated Before inset.",
+      "scope": "Content quantity, grouping and whitespace preference. Do not inherit the visible product claims, portrait assets or Before/After provenance."
+    },
+    {
+      "id": "2026-10-22-ctr-copy-and-scope-feedback",
+      "source": "User correction after an over-redesigned Canva draft, followed by an explicit request to retain the copy-focused quality in this skill",
+      "role": "Copy-first revision and persuasion preference",
+      "keep": "Useful functional explanation, clear concern/benefit language, ingredient-to-supported-benefit connections, and a CTA that identifies the product-detail destination.",
+      "revision_scope": "For copy-focused revisions, retain the supplied color theme, original font families/sizes, photo composition and framing. In this job the baseline was navy/white; do not impose that palette on every brand or override an explicit redesign request.",
+      "quality": "Fit rewritten copy to existing slots; check actual Canva paragraph spacing and overlap. Natural, intentional portrait framing is required.",
+      "reference": "click-through-copy.md",
+      "scope": "Reusable writing and revision criteria. The current product facts, exact headlines, photos, account IDs and claimed CTR performance are not reusable defaults."
+    },
+    {
+      "id": "2026-10-22-complete-output-quality-set",
+      "source": "approved-quality.json",
+      "role": "Latest explicit four-page target for one-invocation new production",
+      "reference": "approved-quality.md",
+      "keep": "Match the four supplied PNGs for type size/hierarchy, navy/light beplain theme, natural large portrait framing, useful functional explanation, aligned columns and CTA treatment.",
+      "default_new_set_order": [
+        "photo-first",
+        "question-led",
+        "editorial-detail",
+        "paired-comparison"
+      ],
+      "copy_scope": "Use fresh current-product copy and destination-specific CTA principles. The reference headlines/ingredient claims are not a reusable copy bank or evidence.",
+      "asset_scope": "Bundled PNGs are visual references only. Their portrait pixels and Before/After roles are not production defaults.",
+      "completion": "Complete and internally correct all four editable Canva pages in the same invocation; do not ask the user to steer the design back to this confirmed benchmark."
+    },
+    {
+      "id": "2026-10-26-appeal-specific-visual-update",
+      "source": "User feedback on human-improved bridge pages and supplied focused hydration comparison screenshot",
+      "role": "Latest new-production content, emphasis and structure preference",
+      "reference": "appeal-led-production.md",
+      "keep": "Brand theme, intentional composition, clear product/CTA and verified useful functions.",
+      "change": "Broad-to-specific: four distinct one-line overview benefits; next page solves one problem; avoid repeated ingredient prose; use compact phrases, larger type, bold and brand-color highlights.",
+      "structure": "05-focused-benefit: one concern and a matched anatomical close-up pair, rather than full-face improvement; optional authorized real packshot and appropriate supporting evidence.",
+      "assets": "Prepare or map a separate suitable pair for each visualizable appeal; do not use one whole-face pair as evidence for every effect. AI concepts remain visibly labeled concepts, not product-use proof.",
+      "scope": "The screenshot provides layout intent, not reusable competitor photography, packaging, claims or proof."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "sample-02",
+      "source": "prior sample 02; not bundled because it contains request-specific photos",
+      "reason": "User rejected its structure and sparse content. Never reuse this layout."
+    },
+    {
+      "id": "rhode-glaze-card",
+      "source": "https://www.rhodeskin.com/cdn/shop/files/glaze-card_1024x.jpg?v=1682964148",
+      "reason": "Viewed and rejected; no specific reason provided."
+    },
+    {
+      "id": "olay-super-serum-benefits",
+      "source": "https://www.olay.com/products/super-serum",
+      "reason": "Viewed and rejected; no specific reason provided."
+    },
+    {
+      "id": "tatcha-brightening-serum-clinicals",
+      "source": "https://tatcha.com/products/the-brightening-serum",
+      "reason": "Viewed and rejected; no specific reason provided."
+    },
+    {
+      "id": "the-inkey-list-tranexamic-acid",
+      "source": "https://www.theinkeylist.com/collections/gifts/products/tranexamic-acid-serum",
+      "reason": "Viewed and rejected; no specific reason provided."
+    },
+    {
+      "id": "summer-fridays-cc-me",
+      "source": "https://summerfridays.com/products/cc-me-serum",
+      "reason": "Viewed and rejected; no specific reason provided."
+    },
+    {
+      "id": "lancome-clarifique-application",
+      "source": "https://www.lancome-usa.com/gifts-and-sets/clarifique-brightening-routine-discovery-set/LAN1080.html",
+      "reason": "Viewed and rejected, including the layout."
+    },
+    {
+      "id": "2026-10-22-under-explained-executions",
+      "source": "User-supplied images 1 and 2, compared with preferred images 3 and 4",
+      "reason": "Too little supporting explanation and conspicuous unused gaps. Image 1 needs a useful quick-points group; image 2 needs product/benefit copy above and explanatory copy below its Before inset.",
+      "scope": "Reject the sparse execution, not the underlying editorial or Before/After composition."
+    },
+    {
+      "id": "2026-10-22-unrequested-visual-redesign",
+      "source": "User feedback on a draft that changed palette, type scale and portrait placements",
+      "reason": "The user wanted stronger wording and useful functional explanation with original type sizes. New theme, enlarged typography and awkward photo crops exceeded the intended copy revision.",
+      "scope": "Reject unrequested visual changes during wording-only revisions; this does not prohibit explicitly requested redesigns or a different theme for a new brand."
+    }
+  ],
+  "not_confirmed": [
+    {
+      "id": "kiehls-dermatologist-solutions",
+      "source": "https://www.kiehls.com/dermatologist-solutions.html",
+      "reason": "Remote image visibility was uncertain; do not infer a reliable preference."
+    },
+    {
+      "id": "glow-recipe-serum-infographic",
+      "source": "https://www.glowrecipe.com/collections/serums-essences",
+      "reason": "Remote image visibility was uncertain; do not infer a reliable preference."
+    }
+  ],
+  "production_rules": [
+    "Create four finished, visually and persuasively distinct English thumbnails per request. By default, deliver one Canva design with four editable pages unless the user requests another format. Use native Canva commands driven by design JSON, without PPTX or full-thumbnail image flattening. Code-rendered local previews are allowed.",
+    "Structure 01: Before left, After right. Structure 04: Before lower-left inset, After large right photo. Put Before/After labels inside their respective photos at bottom-right. User confirmation of AI concept roles is not proof of actual product-use results.",
+    "Use 3-4 verified benefit bullets or short sentences in information-heavy benefit sections, not a single tagline.",
+    "Photo-first layouts keep the After portrait dominant while explaining the product: place product name and a short benefit above the left Before inset, then compact verified explanatory copy below it. Concise copy must still be informative.",
+    "Use clear benefit/concern-led beauty copy; editorial tone must not obscure the meaning. Read click-through-copy.md for concrete functional support and destination-specific CTAs. Do not make unsupported numerical, ingredient, or efficacy claims.",
+    "Freshly write all four main headlines for each new request, including 03-question-led. Keep layouts reusable but wording flexible, based on the current appeal, verified product facts, and persuasion angle. Vary sentence structure as well as wording; do not habitually reuse the concern-list plus What next? formula. Preserve prior copy only when explicitly requested or outside the scope of a targeted revision.",
+    "Use the latest user-supplied assets/beplain-logo.png at top-left on every thumbnail; preserve proportions, artwork and alpha during placement and upload. Do not add a white box/badge. Choose a light composition behind the black logo rather than moving it right.",
+    "When retaining supplied originals for revisions, preserve all text, geometry, fonts, colors, crops, and layer order exactly. Default to interleaved original/revised page pairs unless the user explicitly requests another order.",
+    "In question-led copy, move from the concern to a concrete verified benefit or ingredient and a clear next action; avoid generic concern repetition. Keep wording fresh unless the user has explicitly approved it.",
+    "Establish enough distinct verified explanation before adjusting type scale and spacing. Larger type supports hierarchy but does not replace missing information. Judge headline, support, line height and gaps together; avoid both accidental voids and cramped body text.",
+    "Default canvas is 1600x1600px. New sets have four pages in one Canva file; revision page counts follow actual requested originals and copies, not a historical eight-page job.",
+    "Separate canonical design intent from runtime IDs, uploads, command responses and verification evidence. Block missing assets or ambiguous mappings; retain failed attempts.",
+    "Inspect actual Canva previews and individual editability. Preview locally, apply JSON to native objects, show finished Canva previews before any tool-required save approval, commit after approval and verify saved metadata.",
+    "Name the actual Canva file MM.DD for the Friday of the user request's Monday–Sunday week. Use explicit local request date and timezone, keep that date for the job, and verify the saved title. Example: 2026-10-10 → 10.09.",
+    "For copy/CTR-wording revisions, preserve the supplied theme, type families/sizes, layout and portrait framing. Use exact native text substitutions; shorten and rephrase before any visual change. Explicit user redesign instructions override this scope default.",
+    "First-pass copy must connect relevance, verified benefits, concrete support and the real next step. Ingredient names and vague support slogans alone are insufficient. Keep quick points and explanatory prose distinct; do not cut useful functions merely to make the layout sparse.",
+    "Inspect natural portrait framing and native text reflow before showing the set. Do not create awkward cutout-like crops or enlarge type to compensate for insufficient copy.",
+    "Describe copy revisions as intended to improve click motivation, not as a measured CTR increase. Keep current product claims and sources in the job evidence.",
+    "One invocation includes internal comparison/correction of all actual Canva pages to the matching quality reference before presenting the set. Tool-required final save approval is still observed.",
+    "For new sets, read appeal-led-production.md: four concise distinct overview benefits followed by specific problem/solution, focused visual comparison and complementary support. Default remains four pages chosen from five structures; an explicitly requested one-structure demo is one page.",
+    "Use supplied/authorized photos with crop/scale in Canva. When appeal-specific AI photo preparation is also requested, complete it upstream with ImageGen, retain provenance and visibly disclose concepts. Do not edit skin using code or present concepts as proof.",
+    "Structure 05 uses the same anatomical region, pose and crop scale before/after, within source views 0–45 degrees. This intentional close-up is allowed; accidental cropping to fit text is not.",
+    "Latest type preference: enlarge useful body/benefit phrases, use bold and restrained brand-color emphasis, shorten wordy copy instead of shrinking type. Historical font sizes/paragraph lengths are no longer mandatory for new sets.",
+    "Use a packshot only from supplied or user-authorized official assets. Competitor reference photography, packaging and results are not beplain evidence."
+  ],
+  "reference_review_protocol": [
+    "Explicit user comparisons of supplied visible images are already-confirmed style feedback; record them directly without another yes/no round. The research protocol below applies when discovering new references.",
+    "Research official, directly visible beauty-brand images in small batches.",
+    "Ask the user yes/no about the whole visual and record any element-level reason they volunteer.",
+    "Do not treat an image that failed to display as an approval or rejection.",
+    "Never copy another brand's photo, logo, exact slogan, or unsupported claims into the deliverable."
+  ],
+  "brand_asset": {
+    "path": "../assets/beplain-logo.png",
+    "source": "Latest user-attached transparent beplain logo.png, reconfirmed 2026-10-10",
+    "sha256": "0c0f55028479f2223074b7c79c845d4c7db8f77fda5ab1eda6d4a4c2f2b37a5d",
+    "mode": "RGBA",
+    "size": [
+      1920,
+      1080
+    ],
+    "preserve_transparency": true,
+    "placement": "top-left on every page",
+    "white_badge": false
+  },
+  "canva_workflow": {
+    "reference": "canva-workflow.md",
+    "design_contract": "design-json.md",
+    "canvas": {
+      "width": 1600,
+      "height": 1600
+    },
+    "new_set_pages": 4,
+    "revision_order": "interleaved unless user overrides",
+    "completed_deliverable": "saved editable Canva design, actual previews, design JSON, separate application log",
+    "file_naming": {
+      "format": "MM.DD",
+      "date_basis": "Friday of request-date week, Monday–Sunday",
+      "timezone": "user/client timezone at request time",
+      "helper": "../scripts/friday_name.py"
+    }
+  },
+  "preference_precedence": "Explicit current request, then newest scope-matched confirmed feedback. The 2026-10-26 appeal-led guidance supersedes older default order, exact type scale and paragraph quantity for new production. Older palette/finish and copy-only preservation rules remain where not contradicted. Reference claims, faces and packaging never become current-product evidence."
+}

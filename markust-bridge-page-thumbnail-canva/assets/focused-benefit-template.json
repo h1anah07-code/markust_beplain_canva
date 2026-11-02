@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "editable-thumbnail-design",
+  "status": "draft_inputs_required",
+  "productionReady": false,
+  "canvas": {
+    "width": 1600,
+    "height": 1600,
+    "unit": "px",
+    "pages": 1
+  },
+  "product": {
+    "brand": null,
+    "name": null,
+    "officialSourceUrl": null,
+    "verifiedFacts": [],
+    "appeal": []
+  },
+  "photoMapping": {
+    "mode": "unconfirmed",
+    "assignments": {},
+    "evidence": null
+  },
+  "requiredInputs": [
+    "Fill current product facts and fresh wording; keep one primary visualizable appeal.",
+    "Supply matched region pair with roles/provenance; set visible AI disclosure for generated concepts.",
+    "Resolve fonts and exact crop recipes from supplied assets.",
+    "Freeze request-week Friday title and current team in runtime."
+  ],
+  "assets": [
+    {
+      "id": "focus-before",
+      "localPath": "assets/focus-before.png",
+      "kind": "photo",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "focus-after",
+      "localPath": "assets/focus-after.png",
+      "kind": "photo",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "brand-logo",
+      "localPath": "assets/beplain-logo.png",
+      "kind": "logo",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "focus-arrow",
+      "localPath": "assets/focus-arrow.png",
+      "kind": "graphic",
+      "width": 74,
+      "height": 100
+    }
+  ],
+  "pages": [
+    {
+      "id": "05-focused-benefit",
+      "filename": "05-focused-benefit.png",
+      "background": "#F7F7FA",
+      "focus": {
+        "appealId": null,
+        "region": null,
+        "beforeAssetId": "focus-before",
+        "afterAssetId": "focus-after",
+        "visualizable": true,
+        "provenance": null
+      },
+      "elements": [
+        {
+          "id": "focus-before-photo",
+          "type": "image",
+          "z": 10,
+          "assetId": "focus-before",
+          "box": {
+            "x": 64,
+            "y": 560,
+            "width": 690,
+            "height": 650
+          },
+          "crop": {
+            "fit": "cover",
+            "preparedAssetIsViewport": false
+          },
+          "opacity": 1
+        },
+        {
+          "id": "focus-after-photo",
+          "type": "image",
+          "z": 10,
+          "assetId": "focus-after",
+          "box": {
+            "x": 846,
+            "y": 630,
+            "width": 690,
+            "height": 650
+          },
+          "crop": {
+            "fit": "cover",
+            "preparedAssetIsViewport": false
+          },
+          "opacity": 1
+        },
+        {
+          "id": "focus-logo",
+          "type": "image",
+          "z": 10,
+          "assetId": "brand-logo",
+          "box": {
+            "x": 64,
+            "y": 44,
+            "width": 265,
+            "height": 105
+          },
+          "crop": {
+            "fit": "contain",
+            "preparedAssetIsViewport": false
+          },
+          "opacity": 1
+        },
+        {
+          "id": "focus-product",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 64,
+            "y": 185,
+            "width": 1460,
+            "height": 52
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 36,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "focus-headline",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 58,
+            "y": 268,
+            "width": 1480,
+            "height": 150
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Times New Roman",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 112,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "focus-subhead",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 64,
+            "y": 420,
+            "width": 1470,
+            "height": 70
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 52,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "focus-transition",
+          "type": "image",
+          "z": 40,
+          "assetId": "focus-arrow",
+          "box": {
+            "x": 770,
+            "y": 850,
+            "width": 74,
+            "height": 100
+          },
+          "crop": {
+            "fit": "contain"
+          },
+          "opacity": 1
+        },
+        {
+          "id": "focus-before-label-bg",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 534,
+            "y": 1120,
+            "width": 194,
+            "height": 66
+          },
+          "fill": "#FFFFFF",
+          "opacity": 1
+        },
+        {
+          "id": "focus-after-label-bg",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 1316,
+            "y": 1190,
+            "width": 194,
+            "height": 66
+          },
+          "fill": "#FFFFFF",
+          "opacity": 1
+        },
+        {
+          "id": "focus-before-label",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 558,
+            "y": 1132,
+            "width": 165,
+            "height": 52
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 38,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1,
+          "labelRole": "before"
+        },
+        {
+          "id": "focus-after-label",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 1350,
+            "y": 1202,
+            "width": 145,
+            "height": 52
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 38,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1,
+          "labelRole": "after"
+        },
+        {
+          "id": "focus-support",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 64,
+            "y": 1324,
+            "width": 1472,
+            "height": 66
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 43,
+            "weight": 400,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "focus-disclosure",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 64,
+            "y": 1400,
+            "width": 1472,
+            "height": 46
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 38,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#555963",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "focus-cta-bg",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 64,
+            "y": 1480,
+            "width": 1472,
+            "height": 94
+          },
+          "fill": "#202D83",
+          "opacity": 1
+        },
+        {
+          "id": "focus-cta",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 104,
+            "y": 1502,
+            "width": 1392,
+            "height": 64
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 44,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#FFFFFF",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        }
+      ]
+    }
+  ]
+}

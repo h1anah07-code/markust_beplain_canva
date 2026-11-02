@@ -1,0 +1,69 @@
+{
+  "approvedBy": "User explicitly selected the four attached PNGs as the target output quality, 2026-10-22",
+  "canvas": {
+    "width": 1600,
+    "height": 1600
+  },
+  "scope": "Visual hierarchy, type scale, content density, composition and photo framing. Not reusable product claims, production portraits or actual product-use evidence.",
+  "referenceOrder": [
+    "photo-first",
+    "question-led",
+    "editorial-detail",
+    "paired-comparison"
+  ],
+  "defaultNewSetOrder": "Historical attachment order only. Current one-appeal-per-page content sequence and structure selection: click-through-copy.md.",
+  "references": [
+    {
+      "id": "quality-01",
+      "file": "../assets/quality-01-photo-first.png",
+      "attachment": "1.png",
+      "direction": "photo-first",
+      "structureId": "04-photo-first",
+      "sha256": "97e0edeb6e28afc4c6a5a751dd91ee3693066238bd751031c09b644ffca8e850",
+      "size": [
+        1600,
+        1600
+      ],
+      "reuseAsProductionPhoto": false
+    },
+    {
+      "id": "quality-02",
+      "file": "../assets/quality-02-question-led.png",
+      "attachment": "2.png",
+      "direction": "question-led",
+      "structureId": "03-question-led",
+      "sha256": "ad59b41a703af4ca858330cf65c88f10e7ce41d98e39883c55f8dc4c16877227",
+      "size": [
+        1600,
+        1600
+      ],
+      "reuseAsProductionPhoto": false
+    },
+    {
+      "id": "quality-03",
+      "file": "../assets/quality-03-editorial-detail.png",
+      "attachment": "3.png",
+      "direction": "editorial-detail",
+      "structureId": "02-editorial-detail",
+      "sha256": "0f3357d8f36f94f6e3af7acd462bdaa36b3aa96fdb91805d56b53782b901ea98",
+      "size": [
+        1600,
+        1600
+      ],
+      "reuseAsProductionPhoto": false
+    },
+    {
+      "id": "quality-04",
+      "file": "../assets/quality-04-paired-comparison.png",
+      "attachment": "4.png",
+      "direction": "paired-comparison",
+      "structureId": "01-paired-views",
+      "sha256": "709dc317076e9fad2658da0d8ca7a453341a116078d0c88204ea736376ececdc",
+      "size": [
+        1600,
+        1600
+      ],
+      "reuseAsProductionPhoto": false
+    }
+  ]
+}

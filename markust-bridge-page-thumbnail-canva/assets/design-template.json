@@ -1,0 +1,1255 @@
+{
+  "schemaVersion": "1.0",
+  "documentType": "editable-thumbnail-design",
+  "status": "draft_inputs_required",
+  "productionReady": false,
+  "canvas": {
+    "width": 1600,
+    "height": 1600,
+    "unit": "px",
+    "pages": 4
+  },
+  "product": {
+    "brand": null,
+    "name": null,
+    "officialSourceUrl": null,
+    "verifiedFacts": [],
+    "appeal": []
+  },
+  "photoMapping": {
+    "mode": "unconfirmed",
+    "assignments": {},
+    "evidence": null
+  },
+  "requiredInputs": [
+    "Set title to MM.DD for the Friday of the user request week; freeze full date/timezone in runtime/naming.json using scripts/friday_name.py.",
+    "Fill product identity and verified facts/evidence.",
+    "Copy supplied original photo/logo assets into the job assets directory and set actual pixel sizes.",
+    "Confirm Before/After source roles and provenance for structures 01, 04 and 05. Use an AI concept asset only when explicitly authorized; do not claim real product-use records.",
+    "Fill all preparedCrop.sourceRectPx values from original source pixels.",
+    "Select and verify a local font file/face and native font policy.",
+    "Choose each portrait independently from 0\u00b0 front-facing through at most 45\u00b0. Matching Before/After pose or direction is not required. Record selected source panel/crop and visual pose evidence.",
+    "Use the latest transparent official beplain logo at top-left on every page; preserve alpha without a white logo box/badge.",
+    "Write fresh English copy in every null text slot using references/click-through-copy.md. Reference headlines and ingredient claims are not reusable defaults.",
+    "Read references/approved-quality.md and compare all four actual Canva pages to the matching bundled quality references before presentation.",
+    "Use click-through-copy.md for one distinct primary appeal per page, and approved-quality.md for larger useful type and short phrases.",
+    "This historical four-layout starter is a composition library. For focused-benefit content, use assets/focused-benefit-template.json and set requested page count/order explicitly."
+  ],
+  "assets": [
+    {
+      "id": "portrait-after",
+      "localPath": "assets/portrait-after.png",
+      "kind": "photo",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "portrait-before",
+      "localPath": "assets/portrait-before.png",
+      "kind": "photo",
+      "width": null,
+      "height": null
+    },
+    {
+      "id": "brand-logo",
+      "localPath": "assets/beplain-logo.png",
+      "kind": "logo",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "photo-01-left",
+      "localPath": "assets/photo-01-left.png",
+      "kind": "photo",
+      "width": 680,
+      "height": 720,
+      "preparedCrop": {
+        "sourceAssetId": "portrait-before",
+        "sourceRectPx": null,
+        "treatment": "crop_and_scale_only"
+      }
+    },
+    {
+      "id": "photo-01-right",
+      "localPath": "assets/photo-01-right.png",
+      "kind": "photo",
+      "width": 680,
+      "height": 720,
+      "preparedCrop": {
+        "sourceAssetId": "portrait-after",
+        "sourceRectPx": null,
+        "treatment": "crop_and_scale_only"
+      }
+    },
+    {
+      "id": "photo-02",
+      "localPath": "assets/photo-02.png",
+      "kind": "photo",
+      "width": 865,
+      "height": 1600,
+      "preparedCrop": {
+        "sourceAssetId": "portrait-after",
+        "sourceRectPx": null,
+        "treatment": "crop_and_scale_only"
+      }
+    },
+    {
+      "id": "photo-03",
+      "localPath": "assets/photo-03.png",
+      "kind": "photo",
+      "width": 835,
+      "height": 1600,
+      "preparedCrop": {
+        "sourceAssetId": "portrait-after",
+        "sourceRectPx": null,
+        "treatment": "crop_and_scale_only"
+      }
+    },
+    {
+      "id": "photo-04-main",
+      "localPath": "assets/photo-04-main.png",
+      "kind": "photo",
+      "width": 962,
+      "height": 1054,
+      "preparedCrop": {
+        "sourceAssetId": "portrait-after",
+        "sourceRectPx": null,
+        "treatment": "crop_and_scale_only"
+      }
+    },
+    {
+      "id": "photo-04-inset",
+      "localPath": "assets/photo-04-inset.png",
+      "kind": "photo",
+      "width": 426,
+      "height": 604,
+      "preparedCrop": {
+        "sourceAssetId": "portrait-before",
+        "sourceRectPx": null,
+        "treatment": "crop_and_scale_only"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "04-photo-first",
+      "filename": "04-photo-first.png",
+      "background": "#FFFFFF",
+      "elements": [
+        {
+          "id": "04-photo-first-portrait-main",
+          "type": "image",
+          "z": 10,
+          "assetId": "photo-04-main",
+          "box": {
+            "x": 596,
+            "y": 382,
+            "width": 962,
+            "height": 1054
+          },
+          "crop": {
+            "fit": "fill_prepared_viewport",
+            "preparedAssetIsViewport": true
+          },
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-portrait-inset",
+          "type": "image",
+          "z": 25,
+          "assetId": "photo-04-inset",
+          "box": {
+            "x": 80,
+            "y": 606,
+            "width": 426,
+            "height": 604
+          },
+          "crop": {
+            "fit": "fill_prepared_viewport",
+            "preparedAssetIsViewport": true
+          },
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-inset-label-background",
+          "type": "rect",
+          "z": 26,
+          "box": {
+            "x": 320,
+            "y": 1128,
+            "width": 166,
+            "height": 58
+          },
+          "fill": "#FFFFFF",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-brand-logo",
+          "type": "image",
+          "z": 30,
+          "assetId": "brand-logo",
+          "box": {
+            "x": 60,
+            "y": 52,
+            "width": 230,
+            "height": 78
+          },
+          "crop": {
+            "fit": "contain",
+            "preparedAssetIsViewport": false,
+            "sourceRectPx": {
+              "x": 25,
+              "y": 227,
+              "width": 1870,
+              "height": 626
+            }
+          },
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-eyebrow",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 60,
+            "y": 331,
+            "width": 1470,
+            "height": 48
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 34,
+            "weight": 400,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-headline",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 60,
+            "y": 176,
+            "width": 1480,
+            "height": 102
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Times New Roman",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 88,
+            "weight": 700,
+            "lineHeight": 1.08,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-summary",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 80,
+            "y": 536,
+            "width": 426,
+            "height": 50
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 400,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-product-name",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 80,
+            "y": 414,
+            "width": 426,
+            "height": 88
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 36,
+            "weight": 700,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-inset-label",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 330,
+            "y": 1142,
+            "width": 146,
+            "height": 36
+          },
+          "text": "Before",
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 700,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "center",
+          "verticalAlign": "top",
+          "opacity": 1,
+          "labelRole": "before"
+        },
+        {
+          "id": "04-photo-first-cta",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 60,
+            "y": 1518,
+            "width": 1480,
+            "height": 55
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 40,
+            "weight": 700,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#FFFFFF",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-main-label-background",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 1342,
+            "y": 1350,
+            "width": 170,
+            "height": 58
+          },
+          "fill": "#FFFFFF",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-main-label",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 1354,
+            "y": 1363,
+            "width": 146,
+            "height": 36
+          },
+          "text": "After",
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 700,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "center",
+          "verticalAlign": "top",
+          "opacity": 1,
+          "labelRole": "after"
+        },
+        {
+          "id": "04-photo-first-explanation",
+          "type": "text",
+          "z": 40,
+          "box": {
+            "x": 80,
+            "y": 1252,
+            "width": 426,
+            "height": 174
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 400,
+            "lineHeight": 1.2,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-header-background",
+          "type": "rect",
+          "z": 0,
+          "box": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 344
+          },
+          "fill": "#F7F7FA",
+          "opacity": 1
+        },
+        {
+          "id": "04-photo-first-cta-background",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 0,
+            "y": 1470,
+            "width": 1600,
+            "height": 130
+          },
+          "fill": "#202D83",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "03-question-led",
+      "filename": "03-question-led.png",
+      "background": "#F7F7FA",
+      "elements": [
+        {
+          "id": "03-question-led-portrait",
+          "type": "image",
+          "z": 10,
+          "assetId": "photo-03",
+          "box": {
+            "x": 765,
+            "y": 0,
+            "width": 835,
+            "height": 1600
+          },
+          "crop": {
+            "fit": "fill_prepared_viewport",
+            "preparedAssetIsViewport": true
+          },
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-brand-logo",
+          "type": "image",
+          "z": 30,
+          "assetId": "brand-logo",
+          "box": {
+            "x": 60,
+            "y": 60,
+            "width": 230,
+            "height": 78
+          },
+          "crop": {
+            "fit": "contain",
+            "preparedAssetIsViewport": false,
+            "sourceRectPx": {
+              "x": 25,
+              "y": 227,
+              "width": 1870,
+              "height": 626
+            }
+          },
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-eyebrow",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 205,
+            "width": 635,
+            "height": 64
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 29,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-headline",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 308,
+            "width": 638,
+            "height": 290
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Times New Roman",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 82,
+            "weight": 700,
+            "lineHeight": 1.3,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-summary",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 610,
+            "width": 635,
+            "height": 174
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 35,
+            "weight": 400,
+            "lineHeight": 1.3,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-product-heading",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 900,
+            "width": 635,
+            "height": 50
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-product-name",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 941,
+            "width": 635,
+            "height": 130
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 44,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-formula",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 1150,
+            "width": 635,
+            "height": 240
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 33,
+            "weight": 400,
+            "lineHeight": 1.35,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-cta",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 90,
+            "y": 1495,
+            "width": 583,
+            "height": 50
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 32,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#FFFFFF",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "03-question-led-cta-background",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 64,
+            "y": 1465,
+            "width": 635,
+            "height": 98
+          },
+          "fill": "#202D83",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "02-editorial-detail",
+      "filename": "02-editorial-detail.png",
+      "background": "#F7F7FA",
+      "elements": [
+        {
+          "id": "02-editorial-detail-portrait",
+          "type": "image",
+          "z": 10,
+          "assetId": "photo-02",
+          "box": {
+            "x": 735,
+            "y": 0,
+            "width": 865,
+            "height": 1600
+          },
+          "crop": {
+            "fit": "fill_prepared_viewport",
+            "preparedAssetIsViewport": true
+          },
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-brand-logo",
+          "type": "image",
+          "z": 30,
+          "assetId": "brand-logo",
+          "box": {
+            "x": 60,
+            "y": 60,
+            "width": 230,
+            "height": 78
+          },
+          "crop": {
+            "fit": "contain",
+            "preparedAssetIsViewport": false,
+            "sourceRectPx": {
+              "x": 25,
+              "y": 227,
+              "width": 1870,
+              "height": 626
+            }
+          },
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-headline",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 54,
+            "y": 236,
+            "width": 625,
+            "height": 285
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Times New Roman",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 88,
+            "weight": 700,
+            "lineHeight": 1.12,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-product-name",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 1324,
+            "width": 615,
+            "height": 108
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 45,
+            "weight": 400,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-summary",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 594,
+            "width": 615,
+            "height": 65
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 40,
+            "weight": 700,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-facts-heading",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 875,
+            "width": 615,
+            "height": 48
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 32,
+            "weight": 400,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-fact-1",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 966,
+            "width": 615,
+            "height": 150
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 34,
+            "weight": 400,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-fact-2",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 64,
+            "y": 1134,
+            "width": 615,
+            "height": 140
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 34,
+            "weight": 400,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-cta",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 90,
+            "y": 1494,
+            "width": 563,
+            "height": 52
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 34,
+            "weight": 700,
+            "lineHeight": 1.25,
+            "letterSpacingPx": 0
+          },
+          "color": "#FFFFFF",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-quick-facts",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 88,
+            "y": 670,
+            "width": 591,
+            "height": 160
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 32,
+            "weight": 400,
+            "lineHeight": 1.48,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "02-editorial-detail-cta-background",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 64,
+            "y": 1465,
+            "width": 615,
+            "height": 98
+          },
+          "fill": "#202D83",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "id": "01-paired-views",
+      "filename": "01-paired-views.png",
+      "background": "#F7F7FA",
+      "elements": [
+        {
+          "id": "01-paired-views-portrait-left",
+          "type": "image",
+          "z": 10,
+          "assetId": "photo-01-left",
+          "box": {
+            "x": 76,
+            "y": 404.353,
+            "width": 680,
+            "height": 720
+          },
+          "crop": {
+            "fit": "fill_prepared_viewport",
+            "preparedAssetIsViewport": true
+          },
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-portrait-right",
+          "type": "image",
+          "z": 10,
+          "assetId": "photo-01-right",
+          "box": {
+            "x": 836,
+            "y": 404.353,
+            "width": 680,
+            "height": 720
+          },
+          "crop": {
+            "fit": "fill_prepared_viewport",
+            "preparedAssetIsViewport": true
+          },
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-top-rule",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 76,
+            "y": 162,
+            "width": 1448,
+            "height": 5
+          },
+          "fill": "#202D83",
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-facts-rule",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 80,
+            "y": 1227.2695,
+            "width": 1440,
+            "height": 5
+          },
+          "fill": "#BEC3D7",
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-left-label-background",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 506,
+            "y": 1042.353,
+            "width": 220,
+            "height": 60
+          },
+          "fill": "#FFFFFF",
+          "opacity": 0.8
+        },
+        {
+          "id": "01-paired-views-right-label-background",
+          "type": "rect",
+          "z": 20,
+          "box": {
+            "x": 1266,
+            "y": 1042.353,
+            "width": 220,
+            "height": 60
+          },
+          "fill": "#FFFFFF",
+          "opacity": 0.8
+        },
+        {
+          "id": "01-paired-views-brand-logo",
+          "type": "image",
+          "z": 30,
+          "assetId": "brand-logo",
+          "box": {
+            "x": 60,
+            "y": 56,
+            "width": 235,
+            "height": 80
+          },
+          "crop": {
+            "fit": "contain",
+            "preparedAssetIsViewport": false,
+            "sourceRectPx": {
+              "x": 25,
+              "y": 227,
+              "width": 1870,
+              "height": 626
+            }
+          },
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-headline",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 60,
+            "y": 216,
+            "width": 1480,
+            "height": 85
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Times New Roman",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 90,
+            "weight": 700,
+            "lineHeight": 1.08,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-subhead",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 60,
+            "y": 325,
+            "width": 1470,
+            "height": 44
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 36,
+            "weight": 400,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#5B5D66",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-product-name",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 80,
+            "y": 1170,
+            "width": 1440,
+            "height": 55
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 43,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-left-label",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 520,
+            "y": 1059,
+            "width": 192,
+            "height": 38
+          },
+          "text": "Before",
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "center",
+          "verticalAlign": "top",
+          "opacity": 1,
+          "labelRole": "before"
+        },
+        {
+          "id": "01-paired-views-right-label",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 1280,
+            "y": 1059,
+            "width": 192,
+            "height": 38
+          },
+          "text": "After",
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 30,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "center",
+          "verticalAlign": "top",
+          "opacity": 1,
+          "labelRole": "after"
+        },
+        {
+          "id": "01-paired-views-cta",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 900,
+            "y": 88,
+            "width": 624,
+            "height": 48
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 28,
+            "weight": 700,
+            "lineHeight": 1.15,
+            "letterSpacingPx": 0
+          },
+          "color": "#202D83",
+          "align": "right",
+          "verticalAlign": "top",
+          "opacity": 1
+        },
+        {
+          "id": "01-paired-views-benefits",
+          "type": "text",
+          "z": 30,
+          "box": {
+            "x": 100,
+            "y": 1277,
+            "width": 1400,
+            "height": 264
+          },
+          "text": null,
+          "font": {
+            "requestedFamily": "Arial",
+            "localPath": null,
+            "localFaceIndex": 0,
+            "sizePx": 36,
+            "weight": 400,
+            "lineHeight": 1.8333333333333333,
+            "letterSpacingPx": 0
+          },
+          "color": "#111217",
+          "align": "left",
+          "verticalAlign": "top",
+          "opacity": 1
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This neutral four-page draft is not production ready and deliberately fails production validation until its missing inputs are completed.",
+    "Structure 01 uses Before left/After right. Structure 04 uses Before lower-left inset/After large right photo. Confirm roles and provenance before rendering.",
+    "The latest transparent beplain logo belongs at top-left on every page, without a white box/badge. Page 04 uses a light composition for black-logo contrast.",
+    "All portraits must independently be front-facing 0 degrees through at most 45 degrees. Before/After direction and angle need not match; never select a 90-degree panel.",
+    "Set the actual Canva title from the user request-week Friday, not the later save date. This draft title remains null until request context is supplied.",
+    "Logo crop removes only transparent outer padding from the bundled asset; original RGBA bytes remain unchanged. Change this crop and dimensions for a different official logo.",
+    "This is a calibrated but deliberately incomplete starter. It contains no reusable portrait pixels, confirmed asset roles or approved product claims.",
+    "Current beplain default: #F7F7FA/white background, #202D83 navy, Times New Roman bold headlines and Arial support, with the approved reference type scale. Explicit brand/style instructions override the palette.",
+    "Source positions are layout starting points, not proof of native Canva glyph alignment. Inspect the actual converted fonts, paragraph spacing and photo crops and correct internally before showing a finished set.",
+    "Do not recreate the rejected sparse or oversized-type restyling. Useful explanation and natural portrait framing are required."
+  ],
+  "title": null,
+  "calibrationReference": "../references/approved-quality.md"
+}

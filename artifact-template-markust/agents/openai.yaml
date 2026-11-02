@@ -1,0 +1,8 @@
+interface:
+  display_name: "Markust 비포·애프터"
+  short_description: "소구점에 맞춘 비포·중간·애프터 총 3장, 각 4각도 생성"
+  icon_large: "./assets/preview.png"
+  default_prompt: "$artifact-template-markust로 첨부 인물 사진과 소구점에 맞춰 비포·중간·애프터 각 1장, 총 3장을 네 각도로 만들어줘."
+policy:
+  allow_implicit_invocation: true
+

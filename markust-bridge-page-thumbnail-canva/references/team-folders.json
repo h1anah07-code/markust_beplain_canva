@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "teams": {
+    "A": {
+      "label": "A팀",
+      "folderId": null,
+      "folderUrl": null
+    },
+    "B": {
+      "label": "B팀",
+      "folderId": null,
+      "folderUrl": null
+    },
+    "C": {
+      "label": "C팀",
+      "folderId": null,
+      "folderUrl": null
+    }
+  }
+}
